@@ -1,0 +1,61 @@
+ravard@ravard-Macmini:~/projects/api/intra_42_REST/logs$ ipython
+Python 3.6.9 (default, Jul 17 2020, 12:50:27) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 7.16.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: new = [    
+   ...:     "amansour",                                                    
+   ...:     "banthony",                                                    
+   ...:     "bbrunell",                                                    
+   ...:     "bjanik", 
+   ...:     "dgameiro",                                                    
+   ...:     "fbonhomm",                                                    
+   ...:     "fle-roy", 
+   ...:     "fperruch",                                                    
+   ...:     "glegendr",                                                    
+   ...:     "hben-yah",                                                    
+   ...:     "hhabbak", 
+   ...:     "jjourdai",                                                    
+   ...:     "jpriou", 
+   ...:     "jtranchi",                                                    
+   ...:     "kvignau",                                                     
+   ...:     "mdugot", 
+   ...:     "mnguyen", 
+   ...:     "nboulaye",                                                    
+   ...:     "ravard", 
+   ...:     "semartin",                                                    
+   ...:     "vtonizzo"                                                     
+   ...: ] 
+   ...:                                                                                                                              
+
+In [2]: old = [ 
+   ...:     "amansour", 
+   ...:     "banthony", 
+   ...:     "bbrunell", 
+   ...:     "bjanik", 
+   ...:     "dgameiro", 
+   ...:     "fbonhomm", 
+   ...:     "fle-roy", 
+   ...:     "fperruch", 
+   ...:     "glegendr", 
+   ...:     "hhabbak", 
+   ...:     "jjourdai", 
+   ...:     "jpriou", 
+   ...:     "jtranchi", 
+   ...:     "kvignau", 
+   ...:     "mdugot", 
+   ...:     "mnguyen", 
+   ...:     "nboulaye", 
+   ...:     "ravard", 
+   ...:     "semartin", 
+   ...:     "vtonizzo" 
+   ...: ] 
+   ...:                                                                                                                              
+
+In [3]: [x for x in old if x not in new]                                                                                             
+Out[3]: []
+
+In [4]: [x for x in new if x not in old]                                                                                             
+Out[4]: ['hben-yah']
+
+-> 21 students validated ft_ssl_des in Paris, all cursus combined

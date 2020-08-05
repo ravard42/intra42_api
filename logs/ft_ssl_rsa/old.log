@@ -1,0 +1,29 @@
+python3 42api.py /v2/projects/983/projects_users /v2/campus/1/users > logs/old_rsa.log
+[
+    [
+        "dgameiro",
+        17215
+    ],
+    [
+        "jmbomeyo",
+        44828
+    ],
+    [
+        "mboulara",
+        45063
+    ],
+    [
+        "nnaumenk",
+        33700
+    ],
+    [
+        "rpapagna",
+        44706
+    ]
+]
+tot_1 = 5
+[
+    "dgameiro",
+    "jmbomeyo"
+]
+tot_2 = 2

@@ -1,0 +1,52 @@
+endpoint -> /v2/projects (python3 42api.py /v2/projects)
+filters need to be activated directly in 42api.py source code
+
+filter -> data = [(project['id'], project['name']) for project in data if "RT" in project['name']]
+[
+    [
+        1009,
+        "START HERE - Hello 42!"
+    ],
+    [
+        1315,
+        "miniRT"
+    ],
+    [
+        24,
+        "RT"
+    ],
+    [
+        23,
+        "RTv1"
+    ]
+]
+tot = 4
+
+filter -> data = [(project['id'], project['name']) for project in data if "ft_ssl" in project['name']]
+[
+    [
+        983,
+        "ft_ssl_rsa"
+    ],
+    [
+        984,
+        "ft_ssl_md5"
+    ],
+    [
+        985,
+        "ft_ssl_des"
+    ],
+    [
+        1450,
+        "ft_ssl_rsa"
+    ],
+    [
+        1451,
+        "ft_ssl_md5"
+    ],
+    [
+        1452,
+        "ft_ssl_des"
+    ]
+]
+tot = 6

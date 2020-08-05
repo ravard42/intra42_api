@@ -1,0 +1,26 @@
+python3 42api.py /v2/projects/1450/projects_users /v2/campus/1/users > logs/new_rsa.log
+[
+    [
+        "dgameiro",
+        17215
+    ],
+    [
+        "jmbomeyo",
+        44828
+    ],
+    [
+        "ravard",
+        16451
+    ],
+    [
+        "rpapagna",
+        44706
+    ]
+]
+tot_1 = 4
+[
+    "dgameiro",
+    "jmbomeyo",
+    "ravard"
+]
+tot_2 = 3
